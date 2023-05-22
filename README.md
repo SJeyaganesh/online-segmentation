@@ -2,11 +2,11 @@
 
 capstone-4
 
-Problem Description:
+(Problem Description):
 
 In this project, your task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 
-Attribute Information:
+(Attribute Information):
 
 InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
 
@@ -24,7 +24,7 @@ CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigne
 
 Country: Country name. Nominal, the name of the country where each customer resides.
 
-Summary:
+(Summary):
 
 In this project, our task was to identify major customer segments on a transnational data set that contained one-year historical transactions for a UK-based online retail store. This would help the company segregate its customers based on transaction data and help them in marketing decisions and strategy.
 
@@ -32,7 +32,7 @@ After basic exploration and cleaning the data we found relationships between fea
 
 We implemented various unsupervised machine learning algorithm such as KMeans Clustering, DBSCAN Algorithm , Hierarchical Clustering(Agglomerative Clustering). Here to find the Optimal number of clusters we used Elbow method as well as used a Elbow Visulizers by Yellow bricks from Scikit Learn library. Also we used Silhouette Score and Silhouette Plot to visualize the clusters with different number of clusters. For Agglomerative Clustering we used Dendogram to find the optimal number of clusters.
 
-Challenges:
+(Challenges):
 
 Data cleaning
 
@@ -40,7 +40,7 @@ RFM analysis
 
 Deciding optimal number of clusters
 
-Conlcusions:
+(Conlcusions):
 
 We got optimal number of clusters=2 with ghelp of Elbow method, Silhouette score.
 Cluster 0 has high recency rate but very low frequency and monetary. Cluster 0 conatins 2414 customers.
